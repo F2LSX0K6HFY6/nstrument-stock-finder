@@ -7,8 +7,8 @@ st.title("Instrument Stock Finder")
 
 @st.cache_data
 def load_data():
-    devices_url = "..."
-    stock_url = "..."
+    devices_url = "devices.xlsx"
+    stock_url = "stock.xlsx"
 
     devices_df = pd.read_excel(devices_url)
     stock_df = pd.read_excel(stock_url)

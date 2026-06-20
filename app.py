@@ -19,7 +19,7 @@ def load_data():
     return devices_df, stock_df
 
 
-devices_df, stock_df = load_data()
+    devices_df, stock_df = load_data()
 
 
     # Remove spaces from column names
